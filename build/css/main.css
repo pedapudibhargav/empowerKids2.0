@@ -1,0 +1,14 @@
+nav ul a {
+  color: #616161; }
+  nav ul a:hover {
+    color: #03a9f4; }
+
+#logo-container h5 {
+  color: #424242;
+  float: right;
+  margin-top: 28px; }
+
+#logo-container img {
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 10px; }
