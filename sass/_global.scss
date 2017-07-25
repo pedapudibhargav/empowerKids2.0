@@ -1,11 +1,22 @@
+.font-family-01{
+  font-family: 'Josefin Sans', sans-serif;
+}
 nav ul a {
-  color:#616161;
+  color: #0288d1;
   &:hover{
-    color: #03a9f4;
+    opacity: 0.85;
   }
 }
+.donate-nav-link{
+  color: #fdd835;
+  text-transform: uppercase;
+  font-size: bold;
+}
+.main-carousel{
+  height: 400px !important;
+}
 #paypal-donation{
-  visibility: hidden;
+  display: none;
 }
 #logo-container{
   h5{
@@ -17,5 +28,15 @@ nav ul a {
       height: 50px;
       margin-top: 5px;
       margin-left: 10px;
+  }
+}
+
+.sponsor-outer{
+  max-width: 500px;
+  margin:auto !important;
+  img{
+    max-width: 30.33%;
+    margin: 10px 1.5%;
+    float: left;
   }
 }
