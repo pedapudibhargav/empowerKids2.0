@@ -1,6 +1,7 @@
 $( document ).ready(function(){
    $(".button-collapse").sideNav();
    $('.main-carousel').carousel({fullWidth: true});
+   $('.main-carousel').carousel('set', 1);
    $('.modal').modal();
 
    /******************** scroll to ************************/

@@ -19,7 +19,9 @@ nav ul a {
   font-size: bold;
 }
 .main-carousel{
-  height: 400px !important;
+  height: 400px;
+  background-repeat: no-repeat;
+   background-position: center;
 }
 #paypal-donation{
   display: none;
