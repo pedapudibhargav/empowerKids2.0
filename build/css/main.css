@@ -4,6 +4,9 @@
 div:focus {
   outline: none; }
 
+#sidenav-overlay {
+  z-index: 900; }
+
 nav ul a {
   color: #0288d1; }
   nav ul a:hover {
@@ -37,3 +40,16 @@ nav ul a {
     max-width: 30.33%;
     margin: 10px 1.5%;
     float: left; }
+
+.map-container {
+  width: 100%; }
+
+.map-container iframe {
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  position: relative;
+  /* IE needs a position other than static */ }
+
+.map-container iframe.clicked {
+  pointer-events: auto; }

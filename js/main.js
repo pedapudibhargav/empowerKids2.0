@@ -39,7 +39,7 @@ $( document ).ready(function(){
        }
      });
      /******************** scroll to ************************/
-     
+
    var teamMember = [
      "Vivek Kumar",
      "Chihiro Jameson",
@@ -56,4 +56,9 @@ $( document ).ready(function(){
      "Dilip is a Silicon Valley engineer, technologist and an aspiring entrepreneur. He has been an active program volunteer with other non-profit organizations in the past. Dilip heads the outreach team at MIT/Stanford Venture Lab and holds both bachelor's and master's degrees in Computer Science. Empowering underprivileged children through education is his passion. He enjoys playing basketball and golf."
    ]
 
+   $('.map-container')
+	.click(function(){
+			$(this).find('iframe').addClass('clicked')})
+	.mouseleave(function(){
+			$(this).find('iframe').removeClass('clicked')});
 });
