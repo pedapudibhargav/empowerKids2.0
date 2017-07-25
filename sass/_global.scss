@@ -1,6 +1,9 @@
 .font-family-01{
   font-family: 'Josefin Sans', sans-serif;
 }
+div:focus{
+outline: none;
+}
 nav ul a {
   color: #0288d1;
   &:hover{
