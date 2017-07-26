@@ -62,4 +62,8 @@ $( document ).ready(function(){
 			$(this).find('iframe').addClass('clicked')})
 	.mouseleave(function(){
 			$(this).find('iframe').removeClass('clicked')});
+
+  $('.donate').click(function(){
+    $("#donation-trigger").click();
+  });
 });
