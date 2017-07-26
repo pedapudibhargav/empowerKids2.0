@@ -7,10 +7,30 @@ outline: none;
 #sidenav-overlay{
   z-index: 900;
 }
+#logo-container{
+  height:56px;
+}
+#main-logo{
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+#text-logo{
+  height: 35px;
+  margin-left: -10px;
+}
+@media only screen and (max-width: 601px){
+  #text-logo{
+    display: none;
+  }
+}
 nav ul a {
   color: #0288d1;
+  -webkit-transition: color 0.5s; /* Safari */
+  transition: color 0.5s;
   &:hover{
-    opacity: 0.85;
+    color: #ff9800;
   }
 }
 @media only screen and (min-width: 601px){
@@ -18,9 +38,12 @@ nav ul a {
     height: 56px;
     line-height: 56px;
   }
+  .navbar-fixed{
+    height: 56px;
+  }
 }
 .donate-nav-link{
-  color: #fdd835;
+  color: #ff9800;
   text-transform: uppercase;
   font-size: bold;
 }
@@ -31,18 +54,6 @@ nav ul a {
 }
 #paypal-donation{
   display: none;
-}
-#logo-container{
-  h5{
-    color: #424242;
-    float: right;
-    margin-top: 28px;
-  }
-  img{
-      height: 50px;
-      margin-top: 5px;
-      margin-left: 10px;
-  }
 }
 
 .sponsor-outer{
