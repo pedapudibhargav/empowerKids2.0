@@ -17,10 +17,20 @@
   <link href="build/css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=197046900816206";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+
   <div class="navbar-fixed">
     <nav role="navigation" class="black ">
     <div class="nav-wrapper">
-      <a id="logo-container" href="#" class="brand-logo"><img src='img/EPKlogo.png' alt="logo"/><h5>Empower Kids</h5></a>
+      <a id="logo-container" href="#" class="brand-logo"><img src='img/EPKlogo.png' alt="logo"/><h5>EmpowerKids</h5><p>Foundation</p></a>
       <a href="#" data-activates="mobile-nav" class="button-collapse right"><i class="material-icons grey-text darken-4">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/">Home</a></li>
@@ -64,43 +74,43 @@
       <h4 >About Us</h4>
       <br/>
       <div class="col s12 m4">
-        <div class="card">
+        <div class="card hoverable">
           <div class="card-content">
             <img src="img/team/vk.jpg" alt="Founder and CEO" class="circle responsive-img">
             <h5>Vivek Kumar</h5>
             <p>Founder & CEO</p>
-            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
+            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="0" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
           </div>
         </div>
       </div>
       <div class="col s12 m4">
-        <div class="card">
+        <div class="card hoverable">
           <div class="card-content">
             <img src="img/team/ct.jpg" alt="President" class="circle responsive-img">
             <h5>Chihiro Jameson</h5>
             <p>President</p>
-            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
+            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="1" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
           </div>
         </div>
       </div>
       <div class="col s12 m4">
-        <div class="card">
+        <div class="card hoverable">
           <div class="card-content">
             <img src="img/team/ds.jpg" alt="President" class="circle responsive-img">
             <h5>Dilip Sundarraj</h5>
             <p>Marketing & Outreach</p>
-            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
+            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="2" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
           </div>
         </div>
       </div>
           <!-- About us - team member info modal -->
            <div id="team-dtl-modal" class="modal">
              <div class="modal-content">
-               <h4>Vivek Kumar</h4>
-               <p>Vivek is a firm believer in the power of education as a tool to empower children. As a native of India, Vivek is familiar with the culture and history of India and is committed to EmpowerKids Foundation's activities in India. Vivek holds a Bachelor's degree in Computer Science and Engineering from the National Institute of Technology, Jamshedpur. Vivek is a Software Executive with Equinix and an Executive Committee Member of MIT/Stanford Venture Lab.</p>
+               <h4 id="team-dtl-mdl-h4">Vivek Kumar</h4>
+               <p id="team-dtl-mdl-p">Vivek is a firm believer in the power of education as a tool to empower children. As a native of India, Vivek is familiar with the culture and history of India and is committed to EmpowerKids Foundation's activities in India. Vivek holds a Bachelor's degree in Computer Science and Engineering from the National Institute of Technology, Jamshedpur. Vivek is a Software Executive with Equinix and an Executive Committee Member of MIT/Stanford Venture Lab.</p>
              </div>
              <div class="modal-footer">
-               <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat blue-text">Close</a>
+               <a id="team-dtl-mdl-cls" class="modal-action modal-close waves-effect waves-green btn-flat blue-text">Close</a>
              </div>
            </div>
            <!-- About us - team member info modal -->
@@ -146,6 +156,8 @@
 
 <br/><br/>
   <!-- ************* Support Us *****************-->
+
+  <!-- ************* Sponsors *****************-->
   <div id="featured-sponsors" class="container center">
     <hr/>
     <br/>
@@ -155,7 +167,29 @@
         <img class="col m4"  src="img/sponsors/sponsor02.jpg" alt="sponsor02"/>
         <img class="col m4" src="img/sponsors/sponsor03.png" alt="sponsor03"/>
       </div>
-  </div><br/><br/>
+    <br/>
+    <hr/>
+  </div>
+  <!-- ************* Sponsors *****************-->
+  <br/><br/>
+
+ <!-- ************* what we do ? *****************-->
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="fb-page" data-href="https://www.facebook.com/empowerkidsfoundation/"
+        data-tabs="timeline" data-width="500" data-height="400"
+        data-small-header="true" data-adapt-container-width="true"
+        data-hide-cover="true" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/empowerkidsfoundation/" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/empowerkidsfoundation/">EmpowerKids Foundation</a>
+        </blockquote>
+      </div>
+    </div>
+    <div class="col s12 m8">
+    </div>
+  </div>
+  <!-- ************* what we do ? *****************-->
+
   </div>
 
   <footer class="page-footer grey darken-4">
