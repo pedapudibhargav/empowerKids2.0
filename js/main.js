@@ -68,4 +68,7 @@ $( document ).ready(function(){
   $('.donate').click(function(){
     $("#donation-trigger").click();
   });
+  $('.contact-us-trigger').click(function(){
+    $('.tap-target').tapTarget('open');
+  });
 });

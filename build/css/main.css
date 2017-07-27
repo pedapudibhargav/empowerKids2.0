@@ -66,6 +66,12 @@ nav ul a {
     list-style-type: circle;
     font-size: 18px; }
 
+#contact-us {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  right: 20px; }
+
 #gallery img {
   width: 100%;
   margin: 10px auto; }
