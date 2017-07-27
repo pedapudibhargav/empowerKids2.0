@@ -54,7 +54,7 @@ $( document ).ready(function(){
    $(".modal-trigger").click(function(){
      var teamateIndexIn = $(this).attr("data-index");
      $("#team-dtl-mdl-h4").html(teamMember[teamateIndexIn]);
-     $("#team-dtl-mdl-p").html(teamMember[memberDetails]);
+     $("#team-dtl-mdl-p").html(memberDetails[teamateIndexIn]);
    });
    $("#team-dtl-mdl-cls").click(function(){
        $('#team-dtl-modal').modal('close');
