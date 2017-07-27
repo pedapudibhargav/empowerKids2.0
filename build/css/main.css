@@ -11,13 +11,14 @@ div:focus {
   height: 56px; }
 
 #main-logo {
-  height: 45px;
+  height: 40px;
   margin-top: 5px;
   margin-left: 15px; }
 
 #text-logo {
   height: 35px;
-  margin-left: -10px; }
+  margin-left: -8px;
+  margin-bottom: -2px; }
 
 @media only screen and (max-width: 601px) {
   #text-logo {
@@ -51,12 +52,23 @@ nav ul a {
   display: none; }
 
 .sponsor-outer {
-  max-width: 500px;
+  max-width: 400px;
   margin: auto !important; }
   .sponsor-outer img {
     max-width: 30.33%;
     margin: 10px 1.5%;
     float: left; }
+
+#what-we-do {
+  margin-left: 10px; }
+  #what-we-do li {
+    font-family: 'Josefin Sans', sans-serif;
+    list-style-type: circle;
+    font-size: 18px; }
+
+#gallery img {
+  width: 100%;
+  margin: 10px auto; }
 
 .map-container {
   width: 100%; }

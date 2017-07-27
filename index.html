@@ -16,8 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
   <link href="build/css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
-  <div id="fb-root"></div>
+<body id="body">
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -36,7 +35,7 @@
       </a>
       <a href="#" data-activates="mobile-nav" class="button-collapse right"><i class="material-icons grey-text darken-4">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="/">Home</a></li>
+        <li><a href="#body">Home</a></li>
         <li><a href="#about-us">About us</a></li>
         <li><a href="#our-programs">Our programs</a></li>
         <li><a href="#support-us">Support us</a></li>
@@ -56,7 +55,7 @@
   </nav>
   </div>
   <!-- ************* Banner Carousel ************* -->
-  <div class="" style="width:100vw">
+  <div class="" >
     <img style="width:100%" src="img/banner/banner-schoolkids.jpg">
   </div>
 
@@ -133,6 +132,51 @@
     </iframe>
   </div>
   <!-- ************* Maps *****************-->
+  <!-- ************* gallery *****************-->
+  <br/>
+
+  <div id="gallery" class="row center">
+    <h4>Gallery</h4>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/01.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/02.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/03.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/04.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/05.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/06.JPG">
+    </div>
+
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/07.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/08.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/09.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/10.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/11.JPG">
+    </div>
+    <div class="col s6 m3 l2">
+      <img class="materialboxed s12"src="img/gallery/12.JPG">
+    </div>
+
+  </div>
+  <!-- ************* gallery *****************-->
   <!-- ************* Support Us *****************-->
   <div id="support-us" class=" container center">
     <br/>
@@ -163,22 +207,29 @@
   <!-- ************* Sponsors *****************-->
   <div id="featured-sponsors" class="container center">
     <hr/>
-    <br/>
-    <h5>Featured Sponsors</h5>
+    <h5 style="font-size:1.2rem">Featured Sponsors</h5>
       <div class="row sponsor-outer">
         <img class="col m4" src="img/sponsors/sponsor01.png" alt="sponsor01"/>
         <img class="col m4"  src="img/sponsors/sponsor02.jpg" alt="sponsor02"/>
         <img class="col m4" src="img/sponsors/sponsor03.png" alt="sponsor03"/>
       </div>
-    <br/>
     <hr/>
   </div>
   <!-- ************* Sponsors *****************-->
   <br/><br/>
 
  <!-- ************* what we do ? *****************-->
-  <div class="row">
-    <div class="col s12 m4">
+  <div class="row container" id="our-programs">
+    <div class="col s12 m7">
+      <h4>School Adoption Program Achievements</h4>
+      <ul id="what-we-do">
+        <li class="font-family-01">Inspired students to excel and to achieve in their classrooms.</li>
+        <li>Strengthened school curriculum to increase the students' chances of moving on to higher education.</li>
+        <li>Installed a school library with English and Hindi books.</li>
+        <li>Held community meetings to encourage parents' involvement in education and to increase their children's, especially the girls', class attendance.</li>
+      </ul>
+    </div>
+    <div class="col s12 m5">
       <div class="fb-page" data-href="https://www.facebook.com/empowerkidsfoundation/"
         data-tabs="timeline" data-width="500" data-height="400"
         data-small-header="true" data-adapt-container-width="true"
@@ -188,10 +239,10 @@
         </blockquote>
       </div>
     </div>
-    <div class="col s12 m8">
-    </div>
   </div>
   <!-- ************* what we do ? *****************-->
+
+
 
   </div>
 
