@@ -56,8 +56,24 @@
   </nav>
   </div>
   <!-- ************* Banner Carousel ************* -->
-  <div class="" >
+  <div style="position:relative" >
     <img style="width:100%" src="img/banner/banner-schoolkids.jpg">
+    <div class="social-links valign-wrapper">
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.youtube.com/user/EKFChannel"><img alt="youtube-link" src="img/logo/youtube-128.png"></a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.facebook.com/pages/EmpowerKids-Foundation/308731626055"><img alt="facebook" src="img/logo/facebook-128.png"></a>
+          </li>
+          <li>
+            <a target="_blank" href="http://empowerkidsfoundation.org/newsletter2010.03.pdf"><img alt="blog-link" src="img/logo/hex-4-128.png"></a>
+          </li>
+          <li>
+            <a target="_blank" href="mailto:contact@empowerkidsfoundation.org"><img alt="email" src="img/logo/mail-128.png"></a>
+          </li>
+        </ul>
+    </div>
   </div>
 
   <!-- ************* Banner Carousel ************* -->
@@ -70,60 +86,72 @@
       <br/>
     </div>
     <!-- ************* Mission ************* -->
-    <hr/>
-    <!-- ************* About us ************* -->
-    <div class="row center" id="about-us">
-      <br/>
-      <h4 >About Us</h4>
-      <br/>
-      <div class="col s12 m4">
-        <div class="card hoverable">
-          <div class="card-content">
-            <img src="img/team/vk.jpg" alt="Founder and CEO" class="circle responsive-img">
-            <h5>Vivek Kumar</h5>
-            <p>Founder & CEO</p>
-            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="0" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card hoverable">
-          <div class="card-content">
-            <img src="img/team/ct.jpg" alt="President" class="circle responsive-img">
-            <h5>Chihiro Jameson</h5>
-            <p>President</p>
-            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="1" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card hoverable">
-          <div class="card-content">
-            <img src="img/team/ds.jpg" alt="President" class="circle responsive-img">
-            <h5>Dilip Sundarraj</h5>
-            <p>Marketing & Outreach</p>
-            <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="2" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
-          </div>
-        </div>
-      </div>
-          <!-- About us - team member info modal -->
-           <div id="team-dtl-modal" class="modal">
-             <div class="modal-content">
-               <h4 id="team-dtl-mdl-h4">Vivek Kumar</h4>
-               <p id="team-dtl-mdl-p">Vivek is a firm believer in the power of education as a tool to empower children. As a native of India, Vivek is familiar with the culture and history of India and is committed to EmpowerKids Foundation's activities in India. Vivek holds a Bachelor's degree in Computer Science and Engineering from the National Institute of Technology, Jamshedpur. Vivek is a Software Executive with Equinix and an Executive Committee Member of MIT/Stanford Venture Lab.</p>
-             </div>
-             <div class="modal-footer">
-               <a id="team-dtl-mdl-cls" class="modal-action modal-close waves-effect waves-green btn-flat blue-text">Close</a>
-             </div>
-           </div>
-           <!-- About us - team member info modal -->
-
+    <div class="row center">
+      <button class="btn waves-effect waves-light btn-large blue pulse donate" type="submit" name="action">Support Us
+      </button>
     </div>
-    <!-- ************* About us ************* -->
-
   </div>
 
   <br/><br/>
+
+  <!-- ************* Activities ************ -->
+  <div class="carousel carousel-slider center activity-slider" data-indicators="true" >
+    <div class="carousel-fixed-item center" style="top:0px; color:white;">
+      <h3>Our Activities</h3>
+    </div>
+    <div class="carousel-item  amber white-text" href="#four!" >
+      <br><br><br>
+      <h5>After school tutoring for Elementary school students</h5>
+      <p class="white-text" style="opacity:0.7">$50 covers tuition for 50 children for one month</p>
+      <img class="activity-img" alt="supplies" src="img/banner/tutoring.png" style="max-width:210px">
+    </div>
+    <div class="carousel-item blue white-text" href="#one!">
+      <br><br><br>
+      <h5>Provide school supplies to under privileged students</h5>
+      <p class="white-text" style="opacity:0.7">$25 provides basic school supply packages to 10 children for one full year</p>
+      <img class="activity-img" alt="supplies" src="img/banner/supplies.png" style="max-width:300px">
+    </div>
+    <div class="carousel-item red white-text" href="#two!">
+      <br><br><br>
+      <h5>Mentoring & Coaching middle school children for government sponsored boarding schools</h5>
+      <p class="white-text" style="opacity:0.7">$100 funds the EmpowerKids after-school program for one month</p>
+      <img class="activity-img" alt="supplies" src="img/banner/AfterSchool.png" style="max-width:230px">
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <br><br><br>
+      <h5>Scholarship for their Middle & high school education</h5>
+      <p class="white-text" style="opacity:0.7">$25 provides basic school supply packages to 10 children for one full year</p>
+      <img class="activity-img" alt="supplies" src="img/banner/scholarship.svg" style="max-width:220px">
+    </div>
+
+  </div>
+  <!-- ************* Activities ************ -->
+  <!-- ************* Support Us *****************-->
+  <div id="support-us" class=" container center">
+    <br/><br/><br/>
+
+    <div class="row">
+      <div class="col m12">
+          <!--<h4 style="margin-bottom:0px; margin-top:60px">SUPPORT</h4> -->
+          <h4 style="margin-top:20px; font-size:2rem" id="donation-quote" class="font-family-01">"A world of peace, dignity, justice and equality depends on many factors, <b>education</b> is central among them"</h4>
+      </div>
+      <div class="col m12">
+          <img src="img/donate.svg" alt="triangle with all three sides equal" height="auto" width="200px" /><br/>
+          <a class="waves-effect waves-light btn btn-large blue donate"><i class="material-icons left">attach_money</i>Donate</a>
+      </div>
+
+    </div>
+
+
+    <form id="paypal-donation" action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post" class="modal-trigger" href="#payment-modal">
+      <input name="cmd" value="_s-xclick" type="hidden">
+      <input name="hosted_button_id" value="4295420" type="hidden">
+      <input id="donation-trigger" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif"  name="submit" alt="PayPal - The safer, easier way to pay online!" border="0" type="image">
+      <img alt="" src = "https://www.paypal.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1">
+    </form>
+  </div>
+<br/><br/><br/>
+  <!-- ************* Support Us *****************-->
   <!-- ************* Maps *****************-->
   <div id="map" class="map-container">
     <iframe
@@ -139,7 +167,7 @@
   <div id="gallery" class="row center">
     <h4>Gallery</h4>
     <div class="col s6 m3 l2">
-      <img class="materialboxed s12"src="img/gallery/01.JPG">
+      <img class="materialboxed s12" src="img/gallery/01.JPG">
     </div>
     <div class="col s6 m3 l2">
       <img class="materialboxed s12"src="img/gallery/02.JPG">
@@ -178,32 +206,7 @@
 
   </div>
   <!-- ************* gallery *****************-->
-  <!-- ************* Support Us *****************-->
-  <div id="support-us" class=" container center">
-    <br/>
 
-    <div class="row">
-      <div class="col m6">
-          <img src="img/donate.svg" alt="triangle with all three sides equal" height="auto" width="200px" /><br/>
-          <a class="waves-effect waves-light btn btn-large blue pulse donate"><i class="material-icons left">attach_money</i>Donate</a>
-      </div>
-      <div class="col m6">
-          <h4 style="margin-bottom:0px; margin-top:60px">SUPPORT</h4>
-          <h4 style="margin-top:20px; font-size:2rem" id="donation-quote" class="font-family-01">"A world of peace, dignity, justice and equality depends on many factors, <b>education</b> is central among them"</h4>
-      </div>
-    </div>
-
-
-    <form id="paypal-donation" action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post" class="modal-trigger" href="#payment-modal">
-      <input name="cmd" value="_s-xclick" type="hidden">
-      <input name="hosted_button_id" value="4295420" type="hidden">
-      <input id="donation-trigger" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif"  name="submit" alt="PayPal - The safer, easier way to pay online!" border="0" type="image">
-      <img alt="" src = "https://www.paypal.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1">
-    </form>
-  </div>
-
-<br/><br/>
-  <!-- ************* Support Us *****************-->
 
   <!-- ************* Sponsors *****************-->
   <div id="featured-sponsors" class="container center">
@@ -243,6 +246,60 @@
   </div>
   <!-- ************* what we do ? *****************-->
 
+  <!-- ************* About us ************* -->
+  <br/>
+  <div class="row container center" id="about-us">
+    <hr>
+    <h4 >About Us</h4>
+    <br/>
+    <div class="col s12 m4">
+      <div class="card hoverable">
+        <div class="card-content">
+          <img src="img/team/vk.jpg" alt="Founder and CEO" class="circle responsive-img">
+          <h5>Vivek Kumar</h5>
+          <p>Founder & CEO</p>
+          <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="0" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card hoverable">
+        <div class="card-content">
+          <img src="img/team/ct.jpg" alt="President" class="circle responsive-img">
+          <h5>Chihiro Jameson</h5>
+          <p>President</p>
+          <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="1" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card hoverable">
+        <div class="card-content">
+          <img src="img/team/pj.jpg" alt="President" class="circle responsive-img">
+          <h5>Puja Venkataraman</h5>
+          <p>Advisor</p>
+          <a class="btn-floating halfway-fab waves-effect waves-light blue modal-trigger" data-index="2" href="#team-dtl-modal"><i class="material-icons">info_outline</i></a>
+        </div>
+      </div>
+    </div>
+
+        <!-- About us - team member info modal -->
+         <div id="team-dtl-modal" class="modal">
+           <div class="modal-content">
+             <h4 id="team-dtl-mdl-h4">Vivek Kumar</h4>
+             <p id="team-dtl-mdl-p">Vivek is a firm believer in the power of education as a tool to empower children. As a native of India, Vivek is familiar with the culture and history of India and is committed to EmpowerKids Foundation's activities in India. Vivek holds a Bachelor's degree in Computer Science and Engineering from the National Institute of Technology, Jamshedpur. Vivek is a Software Executive with Equinix and an Executive Committee Member of MIT/Stanford Venture Lab.</p>
+           </div>
+           <div class="modal-footer">
+             <a id="team-dtl-mdl-cls" class="modal-action modal-close waves-effect waves-green btn-flat blue-text">Close</a>
+           </div>
+         </div>
+         <!-- About us - team member info modal -->
+
+  </div>
+  <br>
+  <br>
+  <!-- ************* About us ************* -->
+
   <!-- contact us -->
     <a id="contact-us" class="waves-effect waves-light btn btn-floating blue contact-us-trigger" >
       <i class="material-icons">contact_mail</i>
@@ -251,8 +308,8 @@
   <!-- Tap Target Structure -->
   <div class="tap-target orange lighten-1" data-activates="contact-us">
     <div class="tap-target-content">
-      <p style="margin:0 5px; font-size:18px;"><strong>Address</strong></p>
-      <p style="margin:0px" class="white-text">EmpowerKids Foundation, Inc.<br/>7484 Kingsbury Place<br/>Cupertino, CA 95014</p>
+      <h5 style="margin:0 5px;color:white;"><u>Address</u></h5>
+      <p style="margin:0px" class="white-text">EmpowerKids Foundation, Inc.<br/>4698 W Campbell Ave<br/>San Jose, CA 95130</p>
       <a href="mailto:contact@empowerkidsfoundation.org">contact@empowerkidsfoundation.org</a>
     </div>
   </div>

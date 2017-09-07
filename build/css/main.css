@@ -88,3 +88,38 @@ nav ul a {
 
 .map-container iframe.clicked {
   pointer-events: auto; }
+
+.activity-img {
+  width: 100%;
+  margin: auto; }
+
+.activity-slider {
+  height: 450px !important; }
+
+.carousel-item h5 {
+  opacity: 0.8;
+  margin-top: 20px; }
+
+.carousel-item p {
+  opacity: 0.65;
+  margin-top: 0px; }
+
+.social-links {
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: calc(100% - 6px);
+  right: 0;
+  padding: 0 10px; }
+
+.social-links img {
+  width: 40px;
+  margin: 10px 0px; }
+
+.social-links a {
+  display: block; }
+
+@media only screen and (max-width: 601px) {
+  .social-links img {
+    width: 20px;
+    margin: 0px; } }
