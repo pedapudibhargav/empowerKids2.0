@@ -155,5 +155,5 @@ gulp.task('default', function(cb) {
 
 // Build Task
 gulp.task('build', function(cb) {
-	runSequence('clean', 'clear-cache', 'build-images', 'build-styles', 'scripts', 'move-fonts', cb);
+	runSequence('clean', 'clear-cache', 'build-images', 'build-styles', 'scripts', 'move-fonts', 'browser-sync', 'watch',cb);
 });
