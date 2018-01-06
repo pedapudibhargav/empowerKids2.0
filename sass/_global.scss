@@ -116,25 +116,14 @@ nav ul a {
   opacity: 0.65;
   margin-top: 0px;
 }
-.social-links{
-  position: absolute;
-  top: 0px;
-  background-color: rgba(0,0,0,0.6);
-  height: calc(100% - 6px);
-  right: 0;
-  padding: 0 10px;
-}
-.social-links img{
-  width:40px;
-  margin:10px 0px;
-}
-.social-links a{
-  display: block;
-}
-
-@media only screen and (max-width: 601px){
-  .social-links img{
-    width:20px;
-    margin:0px;
+#social-links{
+  margin-top: 5px;
+  .fa{
+    color: #000;
+    font-size: 28px;
+    margin-right:10px;
+    &:hover{
+      opacity:0.5;
+    }
   }
 }
